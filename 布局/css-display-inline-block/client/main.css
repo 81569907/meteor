@@ -1,0 +1,49 @@
+/* CSS declarations go here */
+body{
+    font: 80% arial, helvetica, sans-serif;
+}
+
+h1{
+    font-size: 1.5em;
+}
+
+h2{
+    font-size: 1.2em;
+}
+
+code{
+    font-family:courier;
+}
+
+#example2, #example3{
+    background: #ccc;
+    border: 2px solid black;
+}
+
+span{
+    background: white;
+    display: inline;
+    border: 0.5em solid red;
+    padding: 1em;
+    margin: 0.5em;
+}
+
+span.altern8 {
+	background: #5b5;
+}
+		
+#example3 span {
+	display: inline-block;
+}
+
+h3:first-letter{
+    font-size: 2em;
+}
+
+h3:first-line{
+    font-weight: bold;
+}
+
+p:before {
+    content: url(http://s3.buysellads.com/1305864/7097131-1478103378.png);
+}
