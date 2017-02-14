@@ -1,0 +1,54 @@
+/* CSS declarations go here */
+body{
+    font: 1.5em arial, helvetica, sans-serif;
+}
+
+div{
+    width: 700px;
+}
+
+span{
+    background: #f99;
+    padding: 0 1em;
+}
+
+#static{
+    padding: 0 1em;
+    background: #c00;
+    color: white;
+    font-weight: bold;
+}
+
+#relative{
+    position: relative;
+    top: 2em;
+    left: 2em;
+    padding: 0 lem;
+    background: #c00;
+    color: white;
+    font-weight: bold;
+}
+
+#absolute{
+    position: absolute;
+    top: 2em;
+    left: 2em;
+    padding: 0 1em;
+    background: #c00;
+    color: white;
+    font-weight: bold;
+}
+
+#p-absolute-relative{
+    position: relative;
+}
+
+#absolute-relative{
+    position: absolute;
+    top: 2em;
+    left: 2em;
+    padding: 0 1em;
+    background: #c00;
+    color: white;
+    font-weight: bold;
+}

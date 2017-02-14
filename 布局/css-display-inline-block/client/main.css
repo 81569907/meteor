@@ -47,3 +47,7 @@ h3:first-line{
 p:before {
     content: url(http://s3.buysellads.com/1305864/7097131-1478103378.png);
 }
+
+p:after {
+    content: url(http://img0.imgtn.bdimg.com/it/u=1164789162,309139542&fm=15&gp=0.jpg);
+}

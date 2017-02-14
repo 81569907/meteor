@@ -1,0 +1,21 @@
+/* CSS declarations go here */
+body {
+    font: 80% arial, helvetica, sans-serif;
+    background: #ccc url(http://www.zlcool.com/d/file/2014/09/21/a6548f940bf09e3ef74552aa1a7b08c2.jpg) no-repeat;
+    background-size:100%;
+    margin: 0;
+}
+
+#navigation {
+    /*position: absolute;*/
+    /*top: 60px;
+    margin-top: 0.5em;
+    left: 0;*/
+    width: 134px;
+    float: left;
+}
+
+#content{
+    border-left: 134px solid #069;
+    padding: 1px 20px 1em 40px;
+}

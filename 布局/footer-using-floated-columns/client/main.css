@@ -1,0 +1,31 @@
+/* CSS declarations go here */
+body {
+    font: 80% arial, helvetica, sans-serif;
+    margin: 0;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+#header {
+    background: #ccc;
+}
+
+#navigation {
+    float: left;
+    width: 150px;
+}
+		
+#content {
+    margin-left: 150px;
+}
+
+#footer {
+    clear: left;
+    background: #ccc;
+}
+
+#footer p {
+    margin: 0;
+}

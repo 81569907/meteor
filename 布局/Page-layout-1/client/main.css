@@ -1,0 +1,26 @@
+/* CSS declarations go here */
+body {
+    font: 80% arial, helvetica, sans-serif;
+    margin: 0;
+}
+
+/*系统默认是block布局，一般自上而下，当你设置position的属性时，该块不遵循该原则，遵循position，但是其他同级块按照super layout开始重新布局*/
+#navigation {
+    position: absolute;
+    left: 0px;
+    width: 15em;
+}
+
+/*border-left 简写属性把左边框的所有属性设置到一个声明中。*/
+/*可以按顺序设置如下属性：
+
+    border-left-width
+    border-left-style
+    border-left-color
+
+如果不设置其中的某个值，也不会出问题，比如 border-left:solid #ff0000; 也是允许的。
+经测试可以调换顺序
+*/
+#content {
+    border-left:  #ccf solid 15em;
+}

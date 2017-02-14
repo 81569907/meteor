@@ -1,0 +1,32 @@
+/* CSS declarations go here */
+body{
+    font: 80%/1.5 arial, helvetica, sans-serif;
+}
+
+code{
+    font: bold 1em courier;
+    color: red;
+}
+
+#second{
+    width: 7em;
+    float: left;
+    color: white;
+    background: #060;
+    padding: 1em;
+    margin: 0;
+}
+
+
+h2 {
+    clear: both;
+}
+
+#fourth{
+    width: 20em;
+    float: right;
+    color: white;
+    background: #006;
+    padding: 1em;
+    margin: 0;
+}
