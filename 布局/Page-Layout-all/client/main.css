@@ -19,3 +19,28 @@ body {
     border-left: 134px solid #069;
     padding: 1px 20px 1em 40px;
 }
+
+#navigation ul{
+    margin: 0 0 1em 0;
+    padding: 0;
+    list-style: none;
+}
+
+#navigation ul a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    background: #17a;
+    border: 0 0.5em;
+    margin: 0 1em 3px 1em;
+    border-left: 10px solid #28b;
+}
+
+/*#navigation a:visited {
+    color: #ccc;
+}*/
+
+#navigation a:hover {
+    background: #39c;
+    border-color: white;
+}
